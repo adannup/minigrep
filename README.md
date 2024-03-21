@@ -25,6 +25,12 @@ Minigrep is a Rust project that implements a simplified version of the `grep` co
 ./target/debug/minigrep "Hello" file.txt
 ```
 
+Insensitive case:
+
+```
+IGNORE_CASE=1 ./target/debug/minigrep "hElLo" file.txt
+```
+
 This command will search for the word "Hello" in the file `file.txt` and display any lines that match.
 
 **Contributions:**
